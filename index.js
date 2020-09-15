@@ -5,3 +5,11 @@ function writeCards(arr, element){
   }
   return arr;
 }
+
+function countDown(num){
+  let i = -1
+  while(num > 0){
+    console.log(num)
+    num--;
+  }
+}
